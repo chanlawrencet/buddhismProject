@@ -12,7 +12,7 @@ var content1 = '<div id="content">'+
                     '</div>'+
                 '</div>';
 
-var pictures = [{title: "1", position: {lat: 42.404391, lng: -71.113852}, content: content1}];
+var pictures = [{title: "1", position: {lat: 32.367938, lng: 103.616959}, content: content1}];
 
 function loadMarkers() {
 	console.log('creating markers')
