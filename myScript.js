@@ -7,7 +7,7 @@ var content1 = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
                 '<div id="bodyContent">'+
-                    '<img src="buddha1.jpeg" height= "100" class = "center">' +
+                    '<img src="resources/buddha1.jpeg" height= "100" class = "center">' +
                     '<p>here is a description of this buddha1</p>'+
                     '</div>'+
                 '</div>';
