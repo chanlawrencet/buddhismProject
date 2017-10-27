@@ -13,10 +13,10 @@ var content1 = '<div id="content">'+
                 '</div>';
 
 var pictures = [{title: "1", position: {lat: 32.367938, lng: 103.616959}, content: content1}];
+var iconImage = 'resources/buddhaMarker.png'
 
 function loadMarkers() {
 	console.log('creating markers')
-	geocoder = new google.maps.Geocoder()
     pictures.forEach(function(pictures){
 		var infoWindow = new google.maps.InfoWindow({
             content: pictures.content
@@ -25,7 +25,8 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
             map: map,
             position: pictures.position,
-            title: pictures.title
+            title: pictures.title,
+            icon: iconImage
         })
 
 		
