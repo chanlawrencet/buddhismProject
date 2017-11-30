@@ -7,12 +7,14 @@ var content1 = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
                 '<div id="bodyContent">'+
-                    '<img src="resources/buddha1.jpeg" height= "100" class = "center">' +
-                    '<p>here is a description of this buddha1</p>'+
+                    '<img src="resources/image1.jpg" height= "200" class = "center">' +
+                    '<br>' +
+                    '<p>Lung-men Caves</p>' +
+                    '<a href="imageDetails/seatedBuddha.html">Seated Buddha</a>' +
                     '</div>'+
                 '</div>';
 
-var pictures = [{title: "1", position: {lat: 32.367938, lng: 103.616959}, content: content1}];
+var pictures = [{title: "1", position: {lat: 34.559490, lng: 112.467856}, content: content1}];
 var iconImage = 'resources/buddhaMarker.png'
 
 function loadMarkers() {

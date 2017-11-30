@@ -20,3 +20,19 @@
     }
 }
 
+table {
+    margin-left: 3cm;
+    margin-right: 3cm;   
+}
+h1 {
+    margin-left: 3cm;
+    margin-right: 3cm;    
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+th, td {
+    padding: 15px;
+}

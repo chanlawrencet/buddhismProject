@@ -1,0 +1,34 @@
+h1 {
+    margin-left: 3cm;
+    margin-right: 3cm;    
+}
+
+.information {
+    margin-left: 3cm;
+    margin-right: 3cm;
+
+}
+
+p {
+    text-indent: 5em;
+}
+
+.logo
+{
+    height: 37px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .logo
+    {
+        height: 10vw;
+    }
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+th, td {
+    padding: 15px;
+}
