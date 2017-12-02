@@ -7,14 +7,104 @@ var content1 = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
                 '<div id="bodyContent">'+
-                    '<img src="resources/image1.jpg" height= "200" class = "center">' +
+                    '<a href="imageDetails/seatedBuddha.html"><img src="resources/buddha1.jpg" height= "200" class = "center"></a>' +
                     '<br>' +
-                    '<p>Lung-men Caves</p>' +
+                    '<p>Lung-men Caves, Henan Sheng</p>' +
                     '<a href="imageDetails/seatedBuddha.html">Seated Buddha</a>' +
                     '</div>'+
                 '</div>';
+var content2 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<table>'+
+                    '<tr>'+
+                        '<td>'+
+                            '<a href="imageDetails/standingBuddha.html"><img src="resources/buddha2.jpg" height= "200" class = "center"></a>' +
+                            '<br>' +
+                            '<p>Mogao Caves, Dunhuang, Jiuquan, Gansu</p>' +
+                            '<a href="imageDetails/standingBuddha.html">Standing Buddha</a>' +
+                        '</td>'+
+                        '<td>'+
+                            '<a href="imageDetails/standingBuddha2.html"><img src="resources/buddha9.jpg" height= "200" class = "center"></a>' +
+                            '<br>' +
+                            '<p>Mogao Caves, Dunhuang, Jiuquan, Gansu</p>' +
+                            '<a href="imageDetails/standingBuddha2.html">Standing Buddha 2</a>' +
+                        '</td>'+
 
-var pictures = [{title: "1", position: {lat: 34.559490, lng: 112.467856}, content: content1}];
+                    '</div>'+
+                '</div>';
+var content3 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/leshanBuddha.html"><img src="resources/buddha3.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Shizhong, Leshan, Sichuan</p>' +
+                    '<a href="imageDetails/leshanBuddha.html">Leshan Buddha</a>' +
+                    '</div>'+
+                '</div>';
+var content4 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/buddhaDisciplesBodhisattva.html"><img src="resources/buddha4.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Bingling Temple, Yongjing, Linxia, Gansu</p>' +
+                    '<a href="imageDetails/buddhaDisciplesBodhisattva.html">Buddha, Disciples, and Bodhisattva</a>' +
+                    '</div>'+
+                '</div>';
+var content5 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/seatedBuddha2.html"><img src="resources/buddha5.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Qigexing Temple, Yanqi Hui Autonomous County, Xinjiang</p>' +
+                    '<a href="imageDetails/seatedBuddha2.html">Seated Buddha 2</a>' +
+                    '</div>'+
+                '</div>';
+var content6 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/sculptureOfBuddha.html"><img src="resources/buddha6.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Longxing Temple, Hebei Sheng</p>' +
+                    '<a href="imageDetails/sculptureOfBuddha.html">Sculpture of Buddha</a>' +
+                    '</div>'+
+                '</div>';
+var content7 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/buddhistDemon.html"><img src="resources/buddha7.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Unknown Location</p>' +
+                    '<a href="imageDetails/buddhistDemon.html">Buddhist Demon</a>' +
+                    '</div>'+
+                '</div>';
+var content8 = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                    '<a href="imageDetails/boddhisattvaAvalokitesvara.html"><img src="resources/buddha8.jpg" height= "200" class = "center"></a>' +
+                    '<br>' +
+                    '<p>Unknown Location</p>' +
+                    '<a href="imageDetails/boddhisattvaAvalokitesvara.html">Boddhisattva Avalokitesvara/a>' +
+                    '</div>'+
+                '</div>';
+
+var pictures = [{title: "Seated Buddha", position: {lat: 34.559490, lng: 112.467856}, content: content1},
+                {title: "Standing Buddha", position: {lat: 40.041903, lng: 94.809154}, content: content2},
+                {title: "Leshan Buddha", position: {lat: 29.544271, lng: 103.771537}, content: content3},
+                {title: "Buddha, Disciples, and Bodhisattva", position: {lat: 35.810433, lng: 103.050614}, content: content4},
+                {title: "Seated Buddha 2", position: {lat: 41.992672, lng: 86.221047}, content: content5},
+                {title: "Sculpture of Buddha", position: {lat: 38.142441, lng: 114.582843}, content: content6},
+                {title: "Buddhist Demon", position: {lat: 32.486087, lng: 124.527479}, content: content7},
+                {title: "Boddhisattva Avalokitesvara", position: {lat: 30.335140, lng: 124.527479}, content: content8}
+
+                ];
 var iconImage = 'resources/buddhaMarker.png'
 
 function loadMarkers() {

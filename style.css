@@ -2,6 +2,11 @@
     display: block;
     margin: 0 auto;
 }
+#centertable {
+    display: block;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
 
 .logo
 {
@@ -20,10 +25,6 @@
     }
 }
 
-table {
-    margin-left: 3cm;
-    margin-right: 3cm;   
-}
 h1 {
     margin-left: 3cm;
     margin-right: 3cm;    
