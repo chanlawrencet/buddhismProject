@@ -2,11 +2,11 @@
     display: block;
     margin: 0 auto;
 }
-#centertable {
+/*#centertable {
     display: block;
-    margin-left: 3cm;
+    margin-left: 5cm;
     margin-right: 3cm;
-}
+}*/
 
 .logo
 {
@@ -36,4 +36,27 @@ h1 {
 
 th, td {
     padding: 15px;
+}
+
+.icon {
+  object-fit: cover;
+  object-position: 0px -5px;
+  width:230px;
+  height:230px;
+}
+
+#bdb {
+object-position: -70px 0px;
+}
+
+#seatedB{
+object-position: 0px -20px;
+}
+
+#seatedB3{
+object-position: 0px -30px; 
+}
+
+#bodd{
+   object-position: 0px 0px;  
 }
