@@ -138,7 +138,7 @@ function loadMarkers() {
 function initMap() {
 	map_options = {
 		zoom: 4,
-		center: {lat: 36.209547, lng: 96.639701},
+		center: {lat: 37.209547, lng: 100.639701},
 		zoomControl: false,
         gestureHandling: 'greedy',
         fullscreenControl: false
