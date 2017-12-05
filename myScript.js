@@ -67,10 +67,10 @@ var content6 = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
                 '<div id="bodyContent">'+
-                    '<a href="imageDetails/sculptureOfBuddha.html"><img src="resources/buddha6.jpg" height= "200" class = "center"></a>' +
+                    '<a href="imageDetails/buddha.html"><img src="resources/buddha6.jpg" height= "200" class = "center"></a>' +
                     '<br>' +
                     '<p>Henan</p>' +
-                    '<a href="imageDetails/sculptureOfBuddha.html">Sculpture of Buddha</a>' +
+                    '<a href="imageDetails/buddha.html">Buddha</a>' +
                     '</div>'+
                 '</div>';
 var content7 = '<div id="content">'+
