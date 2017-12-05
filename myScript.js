@@ -69,7 +69,7 @@ var content6 = '<div id="content">'+
                 '<div id="bodyContent">'+
                     '<a href="imageDetails/sculptureOfBuddha.html"><img src="resources/buddha6.jpg" height= "200" class = "center"></a>' +
                     '<br>' +
-                    '<p>Longxing Temple, Hebei Sheng</p>' +
+                    '<p>Henan</p>' +
                     '<a href="imageDetails/sculptureOfBuddha.html">Sculpture of Buddha</a>' +
                     '</div>'+
                 '</div>';
@@ -80,18 +80,18 @@ var content7 = '<div id="content">'+
                     '<h3>Unknown Locations</h3>'+
                     '<table>'+
                     '<tr>'+
-                        '<td>'+
+                        '<td style="vertical-align: top">'+
                             '<a href="imageDetails/buddhistDemon.html"><img src="resources/buddha7.jpg" height= "200" class = "center"></a>' +
                             '<br>' +
                             '<a href="imageDetails/buddhistDemon.html">Buddhist Demon</a>' +
                         '</td>'+
-                        '<td>'+
+                        '<td style="vertical-align: top">'+
                             '<a href="imageDetails/boddhisattvaAvalokitesvara.html"><img src="resources/buddha8.jpg" height= "200" class = "center"></a>' +
                             '<br>' +
                             '<a href="imageDetails/boddhisattvaAvalokitesvara.html">Boddhisattva Avalokitesvara </a>' +
                             '</div>'+
                         '</td>'+
-                        '<td>'+
+                        '<td style="vertical-align: top">'+
                             '<a href="imageDetails/seatedBuddha3.html"><img src="resources/buddha10.jpg" height= "200" class = "center"></a>' +
                             '<br>' +
                             '<a href="imageDetails/seatedBuddha3.html">Seated Buddha</a>' +
@@ -107,7 +107,7 @@ var pictures = [{title: "Seated Buddha", position: {lat: 34.559490, lng: 112.467
                 {title: "Leshan Buddha", position: {lat: 29.544271, lng: 103.771537}, content: content3},
                 {title: "Buddha, Disciples, and Bodhisattva", position: {lat: 35.810433, lng: 103.050614}, content: content4},
                 {title: "Seated Buddha 2", position: {lat: 41.992672, lng: 86.221047}, content: content5},
-                {title: "Sculpture of Buddha", position: {lat: 38.142441, lng: 114.582843}, content: content6},
+                {title: "Buddha", position: {lat: 33.573531, lng: 113.573522}, content: content6},
                 {title: "Unknown Locations", position: {lat: 32.486087, lng: 124.527479}, content: content7}
 
                 ];

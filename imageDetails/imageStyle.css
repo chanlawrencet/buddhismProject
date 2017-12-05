@@ -1,6 +1,5 @@
 h1 {
-    margin-left: 3cm;
-    margin-right: 3cm;    
+    text-align: center;  
 }
 
 .information {
@@ -8,7 +7,7 @@ h1 {
 
 }
 
-p {
+.indent {
     text-indent: 5em;
 }
 
@@ -29,5 +28,5 @@ p {
 }
 
 th, td {
-    padding: 15px;
+    padding: 20px;
 }
